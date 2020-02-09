@@ -2,7 +2,7 @@
 v-app
   headders 
   mainvisual
-  sectionone
+
   nuxt
   
 </template>
@@ -11,7 +11,7 @@ v-app
 import Headders from '~/components/Headders.vue'
 import Mainvisual from '~/components/home/Mainvisual.vue'
 export default {
-    components: {
+  components: {
     Headders,
     Mainvisual
   }

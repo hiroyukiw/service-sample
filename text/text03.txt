@@ -1,0 +1,8 @@
+<template lang="pug">
+v-app-bar(app='' clipped-left='')
+  v-toolbar-title.title.ml-3.mr-5 Page title
+  v-btn.text.small.depressed Normal
+  v-btn.text.small.depressed Normal
+  v-btn.text.small.depressed Normal
+  v-spacer
+</template>
