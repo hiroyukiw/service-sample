@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Web Site", 
+    "text": "You can make your website beautiful.", 
+    "link": "website",
+    "icon": "fas fa-desktop"
+  },
+  {
+    "id": 2,
+    "title": "Landing Page", 
+    "text": "Landing page closing rate increased.", 
+    "link": "lp",
+    "icon": "fas fa-laptop-code"
+  },      
+  {
+    "id": 3,
+    "title": "EC Shop", 
+    "text": "Create a comfortable EC-shop.", 
+    "link": "ec",
+    "icon": "fas fa-shopping-basket"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard", 
+    "text": "A cool dashboard is ready.", 
+    "link": "dashboard",
+    "icon": "fas fa-chart-line"
+  },
+  {
+    "id": 5,
+    "title": "Web Application", 
+    "text": "Reduce development effort.", 
+    "link": "app",
+    "icon": "fas fa-mobile-alt"
+  },
+  {
+    "id": 6,
+    "title": "Blog Media", 
+    "text": "You can concentrate on writing.", 
+    "link": "media",
+    "icon": "fas fa-pencil-alt"
+  }
+]

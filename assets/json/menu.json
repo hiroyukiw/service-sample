@@ -1,0 +1,22 @@
+[
+  { "id": 1,
+    "category": "about",
+    "link": "about"
+  },
+  { "id": 2,
+    "category": "case",
+    "link": "case"
+  },
+  { "id": 3,
+    "category": "solution",
+    "link": "solution"
+  },
+  { "id": 4,
+    "category": "price",
+    "link": "price"
+  },
+  { "id": 5,
+    "category": "help",
+    "link": "help"
+  }
+]

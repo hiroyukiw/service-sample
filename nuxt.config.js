@@ -30,6 +30,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/swiper.js', ssr: false },
+    { src: '~/plugins/vuetify.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -41,7 +43,18 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/style-resources'
   ],
+  axios: {
+    // proxyHeaders: false
+  },
+  styleResources: {  
+    stylus: [  
+      '~/assets/stylus/_variables.styl',
+      '~/assets/stylus/_mixins.styl'
+    ]  
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module

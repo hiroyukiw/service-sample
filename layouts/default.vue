@@ -1,19 +1,22 @@
 <template lang="pug">
 v-app
   headders 
-  mainvisual
-
   nuxt
+  footer-contact
+  footers
   
 </template>
 
 <script>
 import Headders from '~/components/Headders.vue'
-import Mainvisual from '~/components/home/Mainvisual.vue'
+import FooterContact from '~/components/FooterContact.vue'
+import Footers from '~/components/Footers.vue'
+
 export default {
   components: {
     Headders,
-    Mainvisual
+    FooterContact,
+    Footers
   }
 }
 </script>

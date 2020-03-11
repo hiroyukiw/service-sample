@@ -1,0 +1,31 @@
+/*---------------------------------------------
+* Mwdia Query
+*---------------------------------------------*/
+breakpoint(bpName)
+  for name in bpName
+    if name == 'xm'
+      {block}
+    if name == 'sm'
+      @media only screen and (min-width: screen-sm)
+        {block}
+    if name == 'md'
+      @media only screen and (min-width: screen-md)
+        {block}
+    if name == 'lg'
+      @media only screen and (min-width: screen-lg)
+        {block}
+    if name == 'xl'
+      @media only screen and (min-width: screen-xl)
+        {block}
+    if name == 'sm-up'
+      @media only screen and (max-width: screen-sm)
+        {block}
+    if name == 'md-up'
+      @media only screen and (max-width: screen-md)
+        {block}
+    if name == 'lg-up'
+      @media only screen and (max-width: screen-lg)
+        {block} 
+    if name == 'xl-up'
+      @media only screen and (max-width: screen-xl)
+        {block}
